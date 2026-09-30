@@ -11,6 +11,7 @@ export default defineNuxtConfig({
 	  preset: 'cloudflare_pages',
 	  prerender: {
 		  crawlLinks: true,
+		  autoSubfolderIndex: false,
 	  },
   },
   devtools: { enabled: true },
