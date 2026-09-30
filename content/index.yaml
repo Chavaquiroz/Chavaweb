@@ -1,0 +1,329 @@
+main:
+  name: Salvador Quiroz Gaytán
+  titles:
+    - Physics Engineer
+    - Software Developer
+    - Opportunity Founds Scholar
+  introduction: >
+    Supreme military leader and master of the dark arts of the Force, dedicated
+    to imposing absolute order, peace, and unyielding discipline across the entire
+    galaxy. 
+  featured_project: death_star_operational_plan.md
+  cv_link: https://drive.google.com/
+
+about_me:
+  picture: assets/img/photo.png
+  description: >
+    Formerly known as the Chosen One prophesied to bring balance to the Force,
+    I was reborn under the guidance of Emperor Palpatine to forge a unified,
+    efficient, and secure galaxy. I bring decades of experience in tactical combat,
+    mass starfleet management, heavy weaponry design, and cybernetic life-support
+    systems optimization. My professional approach is anchored in flawless execution,
+    strict obedience, and absolute mastery over the fundamental energies of the universe.
+  stats:
+    - label: Years of experience
+      value: "4+"
+    - label: Sucessfully deployed projects
+      value: "20+"
+    - label: English fluent 
+      value: "C1"
+  skills_distribution:
+    - category: Lightsaber Combat
+      percentage: 20
+    - category: Dark Side Operations
+      percentage: 20
+    - category: Imperial Fleet Strategy
+      percentage: 15
+    - category: Starfighter Piloting
+      percentage: 15
+    - category: Personnel Management & Discipline
+      percentage: 10
+    - category: Cybernetic Maintenance
+      percentage: 10
+    - category: Interrogation Techniques
+      percentage: 5
+    - category: Orbital Bombardment Logistics
+      percentage: 5
+
+experience:
+  timeline:
+    - company: Corporativo Transporta, Leon, Guanajuato
+      job_title: Software Developer
+      start: "May 2026"
+      years: "May 2026 - Present"
+      bullets:
+        - Developed software solutions to optimize public transportation routes, improving operational efficiency and reducing travel times for commuters.
+        - Designed and implemented route planning and scheduling features supporting the daily deployment of apporoximately 1,000 busses.
+        - Maintained and enhanced transportation management systems serving over 800,000 daily commuters.
+      picture: /att/job6.jpg
+      technologies:
+
+    - company: Optimen, Leon, Guanajuato
+      job_title: Software Developer
+      start: "May 2025"
+      years: "May 2025 - May 2026"
+      bullets:
+        - Designed and implemented optimization algorithms for crew rostering and pairing at LATAM Airlines, delivering a 5% reduction in operational costs. Leveraged AWS, Java, Timefold, Python, Git, and Rave to build scalable and efficient solutions.
+        - Work with complex scheduling data and operational constraints to deliver efficient crew planning solutions.
+        - Collaborate with a multidisciplinary team to design, implement, and test robust software solutions that enhance airline crew management systems.
+      picture: /att/job6.jpg
+      technologies:
+        - i-logos-aws
+        - i-logos-java
+        - i-logos-python
+        - i-logos-git
+
+    - company: Outlier, Remote
+      job_title: Artificial Intelligence Consultant
+      start: "Dec 2024"
+      years: "Dec 2024 - Jun 2025"
+      bullets:
+        - Evaluated, tested, and refined AI/ML models to ensure accuracy, consistency, and alignment with project standards, using tools such as Python and Jupyter Notebook.
+        - Provide high-quality annotations, classifications, and prompt-based outputs to support the training and improvement of large-scale AI systems.
+      picture: /att/job6.jpg
+      technologies:
+        - i-logos-python
+        - i-logos-jupyter
+
+    - company: Maquinas Chochis, Leon, Guajauato
+      job_title: Software Developer
+      start: "Jul 2024"
+      years: "Jul 2024 - Dec 2024"
+      bullets:
+        - Built and developed a lightweight ERP web platform that reduced inventory errors by 22% and significantly improved the invoicing workflow, implementing RESTful APIs to enable reliable and scalable data communication.
+        - Developed automated modules for inventory and billing, resulting in a more centralized and efficient management process.
+        - Utilized TypeScript, Python (Django), React, and Vite to build a modern, responsive, and high-performance platform tailored to the company's operational needs.
+      picture: /att/job6.jpg
+      technologies:
+        - i-logos-typescript
+        - i-logos-python
+        - i-logos-django
+        - i-logos-react
+        - i-logos-vite
+
+    - company: Algorithmics, Leon, Guanajuato
+      job_title: Programming Professor
+      start: "June 2024"
+      years: "June 2024 - Present"
+      bullets:
+        - Teach algorithmic concepts and programming fundamentals to groups of 15+ students between 6 and 17 years old weekly, adapting lessons to diverse skill levels.
+        - Provide individualized support and feedback to students to enhance problem-solving skills and programming logic.
+        - Taught a variety of programming environments, including block-based coding, Scratch, Lua, Roblox Studio, and Python, ensuring students progressed from visual programming to text-based coding.
+      picture: /att/job6.jpg
+      technologies:
+        - i-logos-python
+        - i-logos-lua
+
+    - company: Centro de Investigaciones en Optica (CIO), Leon, Guanajuato
+      job_title: Doctoral Research Assistant
+      start: "July 2023"
+      years: "July 2023 - Dec 2024"
+      bullets:
+        - Developed and implemented neural network models for automated inspection in precision agriculture using a robotic arm, leveraging Python, Jupyter Notebook, NumPy, Matplotlib, and TensorFlow.
+        - Conducted research on convolutional neural networks (CNNs), feature extraction, and machine learning workflows for robotic arm perception, crop monitoring, and pattern recognition.
+        - Worked on performance modeling, efficiency analysis, and evaluation of mechanical and operational behavior of the robotic arm under different agricultural and environmental conditions.
+      picture: /att/job6.jpg
+      technologies:
+        - i-logos-python
+        - i-logos-jupyter
+        - i-logos-numpy
+        - i-logos-matplotlib
+        - i-logos-tensorflow
+
+    - company: University of Guajanuato, Leon, Guanajuato
+      job_title: Chess Instructor
+      start: "July 2022"
+      years: "July 2022 - July 2023"
+      bullets:
+        - Delivered weekly chess lessons to groups of 10–20 students, improving their strategic thinking and game skills shelter
+        - Organized and ran biannual tournaments with over 30 participants, fostering sportsmanship and student involvement.
+      picture: /att/job6.jpg
+      technologies:
+
+my_skills:
+  languages:
+    - Galactic Basic
+    - Sith Language (Ur-Kittât)
+    - Droid Binary
+    - Shyriiwook Comprehension
+    - Huttese
+    - Rodian
+    - Geonosian
+    - Bocce
+  frameworks:
+    - Sith Code
+    - Imperial Military Doctrine
+    - Form V Combat (Djem So)
+    - TIE Advanced Operating Systems
+    - Star Destroyer Tactical Command
+    - Advanced Telekinesis Operations
+    - Force Choke Protocols
+    - Extreme Mind Probe Techniques
+  tools:
+    - Crimson Kyber Lightsaber
+    - Cybernetic Life-Support Armor Suit
+    - Executor Super Star Destroyer
+    - TIE Advanced x1 Starfighter
+    - Pressurized Meditation Chamber
+    - IT-O Interrogation Droid
+    - Imperial Security Bureau Intelligence Network
+    - Detention Block Cell Matrix
+
+testimonials:
+  introtext: Testimonials from allies, subordinates, and adversaries regarding the Dark Lord's supremacy
+  list:
+    - name: Emperor Palpatine
+      role: Galactic Emperor & Sith Master
+      text: >
+        Lord Vader is the ultimate manifestation of the Dark Side's power. His capacity
+        to execute the Empire's will with unyielding precision is unmatched. Those who dare
+        challenge him shall learn the true meaning of suffering.
+      avatar: /att/photo.jpg
+      rate: 5
+    - name: Grand Moff Tarkin
+      role: Governor of the Outer Rim
+      text: >
+        Working alongside Lord Vader ensures that strategic objectives are met regardless
+        of cost. His presence instills a methodical dread that maintains order across even
+        the most unruly systems.
+      avatar: /att/photo.jpg
+      rate: 5
+    - name: Admiral Piett
+      role: Imperial Fleet Commander
+      text: >
+        Serving under Lord Vader's direct command demands absolute excellence. Mistakes are
+        not tolerated, but under his leadership, the fleet has never suffered a true strategic defeat.
+      avatar: /att/photo.jpg
+      rate: 5
+    - name: Boba Fett
+      role: Bounty Hunter
+      text: >
+        Vader pays on time and keeps his word, as long as you don't disintegrate the targets.
+        He is one of the few figures in the galaxy I truly respect and fear.
+      avatar: /att/photo.jpg
+      rate: 5
+    - name: Obi-Wan Kenobi
+      role: Jedi Master in Exile
+      text: >
+        He was the Chosen One, destined to destroy the Sith, not join them. His mastery of
+        combat and unrestrained deployment of the Dark Side make him the most dangerous entity in the galaxy.
+      avatar: /att/photo.jpg
+      rate: 1
+    - name: Luke Skywalker
+      role: Rebel Alliance Pilot
+      text: >
+        There is a conflict within him; I can feel it. Yet on the battlefield and inside the cockpit of his starfighter,
+        his raw power and tactical mastery are simply overwhelming.
+      avatar: /att/photo.jpg
+      rate: 4
+    - name: Ahsoka Tano
+      role: Former Jedi Padawan
+      text: >
+        The man who was once my master no longer exists; only an unstoppable machine of war remains.
+        His lightsaber technique and command over the Force are nearly unassailable.
+      avatar: /att/photo.jpg
+      rate: 2
+    - name: Director Orson Krennic
+      role: Director of Advanced Weapons Research
+      text: >
+        Despite our disagreements regarding leadership over the Death Star project, I must admit
+        that his ability to choke out bureaucratic inefficiency is remarkably effective.
+      avatar: /att/photo.jpg
+      rate: 4
+
+education:
+  - degree: Bachelor of Science in Physics (Exchange Semester)
+    institution: Northeastern Illinois University
+    year: "Spring Term, 2024"
+  - degree: Bachelor of Science in Engineering Physics
+    institution: Universidad de Guanajuato
+    year: "Jan 2021 - June 2026"
+  - degree: Opportunity Founds Scholar
+    institution: Education USA
+    year: "June 2026"
+
+awards:
+  - name: Study Abroad Award
+    institution: Universidad de Guanajuato 
+    year: Spring 2024 
+    text: Awarded to distinguished students selected to represent the University of Guanajuato in international academic programs.  
+  - name: Academic Merit Award
+    institution: Universidad de Guanajuato 
+    year: Dec 2023 
+    text: Granted for being the top-performing student in the Engineering Physics program.  
+  - name: Global Nominee and 3rd Regional Place
+    institution: NASA Space Apps Challenge   
+    year: Oct 2023 
+    text: Recognized as a Global Nominee and achieved third place in the Guanajuato regional  competition of the world’s largest hackathon organized by NASA. 
+  - name: Academic Merit Award
+    institution: Universidad de Guanajuato  
+    year: Dec 2022 
+    text: Granted for being the top-performing student in the Engineering Physics program. 
+  - name: 4th State Place
+    institution: University Chess Olympiad (CONDDE)  
+    year: Nov 2022 
+    text: Achieved fourth place in the most competitive university-level chess tournament in the  state, part of Mexico’s national collegiate sports system. 
+  - name: Global Nominee and 2nd Regional Place
+    institution: NASA Space Apps Challenge   
+    year: Oct 2022 
+    text: Recognized as a Global Nominee and achieved second place in the Guadalajara regional 
+    competition of the world’s largest hackathon organized by NASA. 
+  - name: Olympic silver medal in mathematics
+    institution: Mexican Mathematical Olympiad (OMM)
+    year: Jun 2016 
+    text: Awarded second place in the most prestigious national-level mathematics competition  
+    in Mexico. 
+  - name: 1st Regional Place
+    institution: Robotix Faire 2016 
+    year: Apr 2016 
+    text: Winner of the regional stage of the most important national robotics tournament at the  middle school level.
+
+languages:
+  - name: Galactic Basic
+    level: Native
+  - name: Sith Language (Ur-Kittât)
+    level: Advanced Fluent
+  - name: Binary / Droid Language
+    level: Fluent
+  - name: Huttese
+    level: Native
+  - name: Shyriiwook
+    level: C1 Comprehension
+  - name: Rodian
+    level: B2 Intermediate
+  - name: Geonosian
+    level: B1 Intermediate
+  - name: Bocce
+    level: C1 Advanced
+
+contactme:
+  message: >
+    Do you have a rebel planet to pacify, a supermassive military project to oversee,
+    or do you wish to join the cause of the Galactic Empire? Write to me before I find
+    your lack of faith disturbing.
+  email: darth.vader@imperialfleet.gal
+  network:
+    - name: Imperial Network
+      icon: i-simple-icons-github
+      url: https://imperialnet.empire.gal/vader
+    - name: HoloNet
+      icon: i-simple-icons-linkedin
+      url: https://holonet.gal/in/darthvader
+    - name: X (Imperium)
+      icon: i-simple-icons-x
+      url: https://x.com/lord_vader
+    - name: HoloGram
+      icon: i-simple-icons-instagram
+      url: https://instagram.com/darthvader_official
+    - name: Imperial Facebook
+      icon: i-simple-icons-facebook
+      url: https://facebook.com/darthvader
+    - name: Sith Transmissions
+      icon: i-simple-icons-youtube
+      url: https://youtube.com/@darthvader
+    - name: Empire Comms
+      icon: i-simple-icons-discord
+      url: https://discord.gg/imperialnavy
+    - name: Death Star Ops
+      icon: i-simple-icons-slack
+      url: https://deathstarworkspace.slack.com
