@@ -1,4 +1,4 @@
-name = "Chavaweb"
+name = "chavaweb"
 main = ".output/server/index.mjs"
 compatibility_date = "2026-09-29"
 
