@@ -7,13 +7,13 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
   ssr: true,
-  // nitro: {
-  //  preset: 'cloudflare-module',
-  //  prerender: {
-  //   crawlLinks: true,
-  //   autoSubfolderIndex: false,
-  //  },
-  // },
+  nitro: {
+   preset: 'cloudflare-module',
+   prerender: {
+    crawlLinks: true,
+    autoSubfolderIndex: false,
+   },
+  },
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
   css: ['~/assets/css/main.css'],
