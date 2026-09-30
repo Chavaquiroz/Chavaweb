@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   ssr: true,
   nitro: {
-	  preset: 'netlify-static',
+	  preset: 'cloudflare_pages',
 	  prerender: {
 		  crawlLinks: true,
 	  },
