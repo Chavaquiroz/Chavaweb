@@ -24,3 +24,11 @@
 		</UTheme>
 	</UApp>
 </template>
+
+<style>
+html, body {
+	&::-webkit-scrollbar { display: none; }
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+</style>
