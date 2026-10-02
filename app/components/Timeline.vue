@@ -65,9 +65,9 @@ onUnmounted(() => {
 				class="flex gap-10 flex-col lg:flex-row flex-col-reverse" v-for="job in jobs"
 			>
 				<div class="flex-2 flex flex-col gap-4 ">
-					<span class="text-sm text-center">{{ job.years }}</span>
-					<span class="text-xl font-bold  text-center dark:text-blue-300">{{ job.job_title }} - {{ job.company }}</span>
-					<div class="text-center">
+					<span class="text-sm text-center lg:text-left">{{ job.years }}</span>
+					<span class="text-xl font-bold  text-center lg:text-left dark:text-blue-300">{{ job.job_title }} - {{ job.company }}</span>
+					<div class="text-center lg:text-left">
 						<ul class="list-disc space-y-2">
 							<li v-for="bullet in job.bullets">{{ bullet }}</li>
 						</ul>
