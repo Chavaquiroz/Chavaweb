@@ -103,7 +103,7 @@ useSeoMeta({
 		 :initial="{ opacity: 0 }"
 		 :whileInView="{ opacity: 1 }"
 		 >
-			 <h2 class="text-4xl text-center mb-50 font-black">Experience</h2>
+			 <h2 class="text-4xl text-center font-black">Experience</h2>
 		</motion.div>
 		<Timeline :jobs="index.meta.experience.timeline" />
 	</UContainer>

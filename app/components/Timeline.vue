@@ -16,7 +16,7 @@ const handleScroll = () => {
   const e = containerRef.value
   if (!e) return
   const startY = e.offsetTop
-  const scrollableDistance = e.offsetHeight - window.innerHeight
+  const scrollableDistance = (e.offsetHeight - window.innerHeight) * 1.2
   if (scrollableDistance <= 0) return
   const scrolled = window.scrollY - startY
   const ratio = Math.min(Math.max(scrolled / scrollableDistance, 0), 1)
@@ -40,21 +40,24 @@ onUnmounted(() => {
 			
 			<!-- Reduce el 20hv si la linea del tiempo es muy larga
 				 o aumenta su valor si es corta -->
-			<div class="sticky top-[20vh] mx-auto w-64 text-center">
-				<UTimeline
-					:items="jobs.map(j => ({
-						title: j.company,
-						date: j.start,
-						icon: 'i-lucide-briefcase-business'
-						}))"
-					:default-value="scrollProgress"
-					color="info"
-					:ui="{ item: 'flex-row-reverse text-end' }"
+			<div class="sticky top-1 mx-auto w-64 text-center">
+				<div class="flex h-[100vh] items-center">
+					<UTimeline
+						:items="jobs.map(j => ({
+							title: j.company,
+							date: j.start,
+							icon: 'i-lucide-briefcase-business'
+							}))"
+						:default-value="scrollProgress"
+						color="info"
+						:ui="{ item: 'flex-row-reverse text-end' }"
 
-				/>
+					/>
+				</div>
 			</div>
 		</div>
 		<div class="flex-2 flex flex-col gap-40 md:gap-100" ref="containerRef">
+			<div></div>
 			<motion.div
 				:initial="{ opacity: 0, x: 0 }"
 				:whileInView="{ opacity: 1, x: 0 }"
@@ -62,9 +65,9 @@ onUnmounted(() => {
 				class="flex gap-10 flex-col lg:flex-row flex-col-reverse" v-for="job in jobs"
 			>
 				<div class="flex-2 flex flex-col gap-4 ">
-					<span class="text-sm lg:text-left text-center">{{ job.years }}</span>
-					<span class="text-xl font-bold lg:text-left text-center dark:text-blue-300">{{ job.job_title }} - {{ job.company }}</span>
-					<div class="text-center lg:text-left">
+					<span class="text-sm text-center">{{ job.years }}</span>
+					<span class="text-xl font-bold  text-center dark:text-blue-300">{{ job.job_title }} - {{ job.company }}</span>
+					<div class="text-center">
 						<ul class="list-disc space-y-2">
 							<li v-for="bullet in job.bullets">{{ bullet }}</li>
 						</ul>
@@ -82,6 +85,7 @@ onUnmounted(() => {
 					</div>
 				</div>
 			</motion.div>
+			<div class=""></div>
 		</div>
 	</div>
 </template>
