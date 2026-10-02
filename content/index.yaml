@@ -68,10 +68,9 @@ experience:
         - Collaborate with a multidisciplinary team to design, implement, and test robust software solutions that enhance airline crew management systems.
       picture: /att/job6.jpg
       technologies:
-        - i-logos-aws
-        - i-logos-java
-        - i-logos-python
-        - i-logos-git
+        - i-simple-icons-spring
+        - i-simple-icons-python
+        - i-simple-icons-git
 
     - company: Outlier, Remote
       job_title: Artificial Intelligence Consultant
@@ -82,8 +81,8 @@ experience:
         - Provide high-quality annotations, classifications, and prompt-based outputs to support the training and improvement of large-scale AI systems.
       picture: /att/job6.jpg
       technologies:
-        - i-logos-python
-        - i-logos-jupyter
+        - i-simple-icons-python
+        - i-simple-icons-jupyter
 
     - company: Maquinas Chochis, Leon, Guajauato
       job_title: Software Developer
@@ -95,11 +94,11 @@ experience:
         - Utilized TypeScript, Python (Django), React, and Vite to build a modern, responsive, and high-performance platform tailored to the company's operational needs.
       picture: /att/job6.jpg
       technologies:
-        - i-logos-typescript
-        - i-logos-python
-        - i-logos-django
-        - i-logos-react
-        - i-logos-vite
+        - i-simple-icons-typescript
+        - i-simple-icons-python
+        - i-simple-icons-django
+        - i-simple-icons-react
+        - i-simple-icons-vite
 
     - company: Algorithmics, Leon, Guanajuato
       job_title: Programming Professor
@@ -111,8 +110,8 @@ experience:
         - Taught a variety of programming environments, including block-based coding, Scratch, Lua, Roblox Studio, and Python, ensuring students progressed from visual programming to text-based coding.
       picture: /att/job6.jpg
       technologies:
-        - i-logos-python
-        - i-logos-lua
+        - i-simple-icons-python
+        - i-simple-icons-lua
 
     - company: Centro de Investigaciones en Optica (CIO), Leon, Guanajuato
       job_title: Doctoral Research Assistant
@@ -124,11 +123,10 @@ experience:
         - Worked on performance modeling, efficiency analysis, and evaluation of mechanical and operational behavior of the robotic arm under different agricultural and environmental conditions.
       picture: /att/job6.jpg
       technologies:
-        - i-logos-python
-        - i-logos-jupyter
-        - i-logos-numpy
-        - i-logos-matplotlib
-        - i-logos-tensorflow
+        - i-simple-icons-python
+        - i-simple-icons-jupyter
+        - i-simple-icons-numpy
+        - i-simple-icons-tensorflow
 
     - company: University of Guajanuato, Leon, Guanajuato
       job_title: Chess Instructor
