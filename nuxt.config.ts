@@ -28,5 +28,15 @@ export default defineNuxtConfig({
   colorMode: {
 	  preference: 'dark',
 	  fallback: 'dark',
+  },
+  image: {
+    provider: 'none',
+  },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }
+      ]
+    }
   }
 })

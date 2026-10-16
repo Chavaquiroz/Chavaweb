@@ -14,7 +14,7 @@ main:
   cv_link: https://drive.google.com/file/d/1EAROyIUW5DUfJ9rdfSmIfQUN8Wb4V4ck/view?usp=sharing
 
 about_me:
-  picture: /att/yosinfondo.png
+  picture: /att/yosinfondo.webp
   description: |
     I'm a Physics Engineer and Software Developer passionate about mathematical optimization, operations research, physics, and scientific research. My experience spans optimization algorithms for airline crew rostering at LATAM Airlines, research in physics, and developing educational video games that inspire interest in science.
 
@@ -57,7 +57,7 @@ experience:
         - Optimized transportation operations serving 800,000+ daily commuters, improving operational efficiency and reducing travel times. 
         - Enhanced large-scale transportation management systems through algorithmic and software-based solutions. 
         - Developed Wigo, a ride-hailing mobile application designed to connect passengers with drivers through a convenient and user-friendly platform.
-      picture: /att/ct.jpeg
+      picture: /att/ct.webp
       technologies:
       - i-simple-icons-mysql
       - i-simple-icons-dotnet
@@ -76,7 +76,7 @@ experience:
         - Designed and implemented constraint-based optimization algorithms for airline crew rostering and pairing at LATAM Airlines, reducing operational costs by 5% 
         - Developed and evaluated scalable optimization solutions for real-world airline operations. 
         - Modeled complex scheduling problems under operational constraints using Java, Timefold, Python, AWS, and Rave.
-      picture: /att/optimen.jpeg
+      picture: /att/optimen.webp
       technologies:
         - i-mdi-language-java
         - i-mdi-aws
@@ -91,7 +91,7 @@ experience:
       bullets:
         - Evaluated, tested, and refined AI/ML models to ensure accuracy, consistency, and alignment with project standards, using tools such as Python and Jupyter Notebook.
         - Provide high-quality annotations, classifications, and prompt-based outputs to support the training and improvement of large-scale AI systems.
-      picture: /att/outlier.jpeg
+      picture: /att/outlier.webp
       technologies:
         - i-simple-icons-python
         - i-simple-icons-jupyter
@@ -105,7 +105,7 @@ experience:
         - Built and developed a lightweight ERP web platform that reduced inventory errors by 22% and significantly improved the invoicing workflow, implementing RESTful APIs to enable reliable and scalable data communication.
         - Developed automated modules for inventory and billing, resulting in a more centralized and efficient management process.
         - Utilized TypeScript, Python (Django), React, and Vite to build a modern, responsive, and high-performance platform tailored to the company's operational needs.
-      picture: /att/chochis.jpeg
+      picture: /att/chochis.webp
       technologies:
         - i-simple-icons-typescript
         - i-simple-icons-python
@@ -121,7 +121,7 @@ experience:
         - Teach algorithmic concepts and programming fundamentals to groups of 15+ students between 6 and 17 years old weekly, adapting lessons to diverse skill levels.
         - Provide individualized support and feedback to students to enhance problem-solving skills and programming logic.
         - Taught a variety of programming environments, including block-based coding, Scratch, Lua, Roblox Studio, and Python, ensuring students progressed from visual programming to text-based coding.
-      picture: /att/alg.jpeg
+      picture: /att/alg.webp
       technologies:
         - i-simple-icons-python
         - i-simple-icons-lua
@@ -134,7 +134,7 @@ experience:
         - Developed and implemented neural network models for automated inspection in precision agriculture using a robotic arm, leveraging Python, Jupyter Notebook, NumPy, Matplotlib, and TensorFlow.
         - Conducted research on convolutional neural networks (CNNs), feature extraction, and machine learning workflows for robotic arm perception, crop monitoring, and pattern recognition.
         - Worked on performance modeling, efficiency analysis, and evaluation of mechanical and operational behavior of the robotic arm under different agricultural and environmental conditions.
-      picture: /att/cio.jpeg
+      picture: /att/cio.webp
       technologies:
         - i-simple-icons-python
         - i-simple-icons-jupyter
@@ -180,7 +180,7 @@ testimonials:
          Salvador has demonstrated an unusual enthusiasm for developing a successful career in 
          science and possesses knowledge and experience in several state-of-the-art 
          computational techniques, in particular, Machine Learning.
-      avatar: /att/ramoncp.jpeg
+      avatar: /att/ramoncp.webp
       rate: 5
     - name: Dr. Carlos Wiechers
       role: Associate Professor
@@ -188,7 +188,7 @@ testimonials:
         Salvador has experience in advanced data analysis using machine learning, quantum field 
         theory and quantum optics. This combination of expertise equips him to conduct advanced 
         theoretical and experimental research across multiple fields.
-      avatar: /att/wiechers.jpeg
+      avatar: /att/wiechers.webp
       rate: 5
     - name: Ana Montes
       role: OPERA Project Leader
@@ -202,7 +202,7 @@ testimonials:
         A good programming teacher possesses strong soft skills, such as responsibility, respect, 
         tolerance, resilience, and empathy, along with solid technical knowledge. Salvador embodies 
         all these qualities.
-      avatar: /att/mariela.png
+      avatar: /att/mariela.webp
       rate: 5
     - name: Guadalupe Aguilera
       role: Maquinas Chochis CEO
@@ -216,14 +216,14 @@ testimonials:
       text: >
         During his time at Optimen, Salvador demonstrated exceptional problem-solving skills and the ability to work
          effectively and collaboratively with diverse interdisciplinary teams.
-      avatar: /att/edgarh.jpeg
+      avatar: /att/edgarh.webp
       rate: 5
     - name: Krystian Rodriguez
       role: Corporativo Transporta Regional Director
       text: >
         Salvador played a key role in the continuous 
         improvement of León's urban and public transportation systems.
-      avatar: /att/krystian.jpeg
+      avatar: /att/krystian.webp
       rate: 5
     - name: Michael Nance
       role: NEIU Coordinator of Partnerships
@@ -231,21 +231,21 @@ testimonials:
         During his exchange program at NEIU, Salvador demonstrated an outstanding 
         ability to adapt to the U.S. academic environment, achieving excellent academic 
         results while embracing a new educational and cultural setting.
-      avatar: /att/michael.jpg
+      avatar: /att/michael.webp
       rate: 5
     - name: Oscar Rodriguez
       role: Optimen CEO
       text: >
         Salvador is an outstanding individual with tremendous potential to make meaningful 
         contributions to both industry and academic research.
-      avatar: /att/oscarro.jpeg
+      avatar: /att/oscarro.webp
       rate: 5
     - name: Luis Islas
       role: Semillas del Futuro CEO
       text: >
         During his time in Chicago, Salvador played an important role in inspiring a new generation of Latino students
         to pursue undergraduate and graduate education in the United States.
-      avatar: /att/luisislas.jpeg
+      avatar: /att/luisislas.webp
       rate: 5
     - name: Analucia Acosta
       role: EducationUSA Adviser
@@ -253,22 +253,22 @@ testimonials:
         I met Salvador through the Opportunity Funds scholarship program, where he was selected as one of the top 15 
         students in Mexico. I can confidently say that he is an outstanding individual, an exceptional professional, 
         and a highly dedicated student.
-      avatar: /att/analucia.png
+      avatar: /att/analucia.webp
       rate: 5
 
 education:
   - degree: Bachelor of Science in Physics (Exchange Semester)
     institution: Northeastern Illinois University
     year: "Spring Term, 2024"
-    image: /att/neiu.jpeg
+    image: /att/neiu.webp
   - degree: Bachelor of Science in Engineering Physics
     institution: Universidad de Guanajuato
     year: "Jan 2021 - June 2026"
-    image: /att/ug.jpeg
+    image: /att/ug.webp
   - degree: Opportunity Funds Scholar
     institution: Education USA
     year: "June 2026"
-    image: /att/edusa.jpeg
+    image: /att/edusa.webp
 
 awards:
   - name: Study Abroad Award

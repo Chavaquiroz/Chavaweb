@@ -16,9 +16,19 @@ const direction = ref(1) // 1 = siguiente, -1 = anterior
 
 const totalPages = computed(() => Math.ceil((projects.value?.length ?? 0) / PER_PAGE))
 
+
+const getOrder = (p: any) => {
+	const n = Number(p.meta.order)
+	return Number.isNaN(n) ? 999 : n
+}
+
+const sortedProjects = computed(() =>
+	[...(projects.value ?? [])].sort((a, b) => getOrder(a) - getOrder(b))
+)
+
 const currentProjects = computed(() => {
 	const start = (page.value - 1) * PER_PAGE
-	return (projects.value ?? []).slice(start, start + PER_PAGE)
+	return sortedProjects.value.slice(start, start + PER_PAGE)
 })
 
 function goTo(n: number) {
@@ -130,7 +140,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
 								handle=""
 								status=""
 								contact-text=""
-								avatar-url="/att/yosinfondo.png"
+								avatar-url="/att/yosinfondo.webp"
 								:show-user-info="false"
 								:enable-tilt="true"
 								:enable-mobile-tilt="true"
@@ -197,7 +207,6 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
 							<div class="overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out relative rounded-lg shadow-md">
 								<div class="relative rounded-lg overflow-hidden aspect-4/3 bg-blue-900 ring-1 ring-blue-400/20">
 									<NuxtImg
-										format="webp"
 										:src="project.meta.images?.[0]"
 										class="absolute inset-0 w-full h-full object-cover mix-blend-luminosity brightness-75 contrast-125"
 									/>
