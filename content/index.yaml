@@ -3,28 +3,29 @@ main:
   titles:
     - Physics Engineer
     - Software Developer
-    - Opportunity Founds Scholar
+    - Optimization and Operations Research Enthusiast
+    - Opportunity Funds Scholar
   introduction: >
-    Supreme military leader and master of the dark arts of the Force, dedicated
-    to imposing absolute order, peace, and unyielding discipline across the entire
-    galaxy. 
+    I'm a Physics Engineer and Software Developer passionate about mathematical
+    optimization, computational science, and building technology that makes a 
+    difference.
+  Copiar introducción. 
   featured_project: death_star_operational_plan.md
-  cv_link: https://drive.google.com/
+  cv_link: https://drive.google.com/file/d/1EAROyIUW5DUfJ9rdfSmIfQUN8Wb4V4ck/view?usp=sharing
 
 about_me:
-  picture: assets/img/photo.png
-  description: >
-    Formerly known as the Chosen One prophesied to bring balance to the Force,
-    I was reborn under the guidance of Emperor Palpatine to forge a unified,
-    efficient, and secure galaxy. I bring decades of experience in tactical combat,
-    mass starfleet management, heavy weaponry design, and cybernetic life-support
-    systems optimization. My professional approach is anchored in flawless execution,
-    strict obedience, and absolute mastery over the fundamental energies of the universe.
+  picture: /att/yosinfondo.png
+  description: |
+    I'm a Physics Engineer and Software Developer passionate about mathematical optimization, operations research, physics, and scientific research. My experience spans optimization algorithms for airline crew rostering at LATAM Airlines, research in physics, and developing educational video games that inspire interest in science.
+
+    I enjoy combining mathematical modeling, algorithm design, and software engineering to tackle complex, real-world problems. Having collaborated in international environments, I value interdisciplinary research, continuous learning, and technology that makes a meaningful impact.
+  
+    I'm always eager to explore new ideas, collaborate across disciplines, and develop innovative solutions that bridge scientific research and practical applications.
   stats:
     - label: Years of experience
       value: "4+"
     - label: Sucessfully deployed projects
-      value: "20+"
+      value: "10+"
     - label: English fluent 
       value: "C1"
   skills_distribution:
@@ -47,44 +48,56 @@ about_me:
 
 experience:
   timeline:
-    - company: Corporativo Transporta, Leon, Guanajuato
+    - company: Corporativo Transporta
       job_title: Software Developer
       start: "May 2026"
       years: "May 2026 - Present"
       bullets:
-        - Developed software solutions to optimize public transportation routes, improving operational efficiency and reducing travel times for commuters.
-        - Designed and implemented route planning and scheduling features supporting the daily deployment of apporoximately 1,000 busses.
-        - Maintained and enhanced transportation management systems serving over 800,000 daily commuters.
-      picture: /att/job6.jpg
+        - Developed route planning and scheduling solutions for public transportation systems supporting the daily deployment of ~1,000 buses. 
+        - Optimized transportation operations serving 800,000+ daily commuters, improving operational efficiency and reducing travel times. 
+        - Enhanced large-scale transportation management systems through algorithmic and software-based solutions. 
+        - Developed Wigo, a ride-hailing mobile application designed to connect passengers with drivers through a convenient and user-friendly platform.
+      picture: /att/ct.jpeg
       technologies:
+      - i-simple-icons-mysql
+      - i-simple-icons-dotnet
+      - i-simple-icons-csharp
+      - i-simple-icons-vuedotjs
+      - i-simple-icons-androidstudio
+      - i-simple-icons-xcode
+      - i-simple-icons-swift
+      - i-simple-icons-kotlin
 
-    - company: Optimen, Leon, Guanajuato
+    - company: Optimen
       job_title: Software Developer
       start: "May 2025"
       years: "May 2025 - May 2026"
       bullets:
-        - Designed and implemented optimization algorithms for crew rostering and pairing at LATAM Airlines, delivering a 5% reduction in operational costs. Leveraged AWS, Java, Timefold, Python, Git, and Rave to build scalable and efficient solutions.
-        - Work with complex scheduling data and operational constraints to deliver efficient crew planning solutions.
-        - Collaborate with a multidisciplinary team to design, implement, and test robust software solutions that enhance airline crew management systems.
-      picture: /att/job6.jpg
+        - Designed and implemented constraint-based optimization algorithms for airline crew rostering and pairing at LATAM Airlines, reducing operational costs by 5% 
+        - Developed and evaluated scalable optimization solutions for real-world airline operations. 
+        - Modeled complex scheduling problems under operational constraints using Java, Timefold, Python, AWS, and Rave.
+      picture: /att/optimen.jpeg
       technologies:
-        - i-simple-icons-spring
-        - i-simple-icons-python
+        - i-mdi-language-java
+        - i-mdi-aws
+        - i-simple-icons-intellijidea
         - i-simple-icons-git
+        - i-simple-icons-python
 
-    - company: Outlier, Remote
+    - company: Outlier
       job_title: Artificial Intelligence Consultant
       start: "Dec 2024"
       years: "Dec 2024 - Jun 2025"
       bullets:
         - Evaluated, tested, and refined AI/ML models to ensure accuracy, consistency, and alignment with project standards, using tools such as Python and Jupyter Notebook.
         - Provide high-quality annotations, classifications, and prompt-based outputs to support the training and improvement of large-scale AI systems.
-      picture: /att/job6.jpg
+      picture: /att/outlier.jpeg
       technologies:
         - i-simple-icons-python
         - i-simple-icons-jupyter
+        - i-simple-icons-cplusplus
 
-    - company: Maquinas Chochis, Leon, Guajauato
+    - company: Maquinas Chochis
       job_title: Software Developer
       start: "Jul 2024"
       years: "Jul 2024 - Dec 2024"
@@ -92,7 +105,7 @@ experience:
         - Built and developed a lightweight ERP web platform that reduced inventory errors by 22% and significantly improved the invoicing workflow, implementing RESTful APIs to enable reliable and scalable data communication.
         - Developed automated modules for inventory and billing, resulting in a more centralized and efficient management process.
         - Utilized TypeScript, Python (Django), React, and Vite to build a modern, responsive, and high-performance platform tailored to the company's operational needs.
-      picture: /att/job6.jpg
+      picture: /att/chochis.jpeg
       technologies:
         - i-simple-icons-typescript
         - i-simple-icons-python
@@ -100,7 +113,7 @@ experience:
         - i-simple-icons-react
         - i-simple-icons-vite
 
-    - company: Algorithmics, Leon, Guanajuato
+    - company: Algorithmics
       job_title: Programming Professor
       start: "June 2024"
       years: "June 2024 - Present"
@@ -108,35 +121,26 @@ experience:
         - Teach algorithmic concepts and programming fundamentals to groups of 15+ students between 6 and 17 years old weekly, adapting lessons to diverse skill levels.
         - Provide individualized support and feedback to students to enhance problem-solving skills and programming logic.
         - Taught a variety of programming environments, including block-based coding, Scratch, Lua, Roblox Studio, and Python, ensuring students progressed from visual programming to text-based coding.
-      picture: /att/job6.jpg
+      picture: /att/alg.jpeg
       technologies:
         - i-simple-icons-python
         - i-simple-icons-lua
 
-    - company: Centro de Investigaciones en Optica (CIO), Leon, Guanajuato
-      job_title: Doctoral Research Assistant
+    - company: Centro de Investigaciones en Optica (CIO)
+      job_title: Research Assistant
       start: "July 2023"
       years: "July 2023 - Dec 2024"
       bullets:
         - Developed and implemented neural network models for automated inspection in precision agriculture using a robotic arm, leveraging Python, Jupyter Notebook, NumPy, Matplotlib, and TensorFlow.
         - Conducted research on convolutional neural networks (CNNs), feature extraction, and machine learning workflows for robotic arm perception, crop monitoring, and pattern recognition.
         - Worked on performance modeling, efficiency analysis, and evaluation of mechanical and operational behavior of the robotic arm under different agricultural and environmental conditions.
-      picture: /att/job6.jpg
+      picture: /att/cio.jpeg
       technologies:
         - i-simple-icons-python
         - i-simple-icons-jupyter
         - i-simple-icons-numpy
         - i-simple-icons-tensorflow
 
-    - company: University of Guajanuato, Leon, Guanajuato
-      job_title: Chess Instructor
-      start: "July 2022"
-      years: "July 2022 - July 2023"
-      bullets:
-        - Delivered weekly chess lessons to groups of 10–20 students, improving their strategic thinking and game skills shelter
-        - Organized and ran biannual tournaments with over 30 participants, fostering sportsmanship and student involvement.
-      picture: /att/job6.jpg
-      technologies:
 
 my_skills:
   languages:
@@ -168,113 +172,144 @@ my_skills:
     - Detention Block Cell Matrix
 
 testimonials:
-  introtext: Testimonials from allies, subordinates, and adversaries regarding the Dark Lord's supremacy
+  introtext: Words from the people I've worked, learned, and built with.
   list:
-    - name: Emperor Palpatine
-      role: Galactic Emperor & Sith Master
+    - name: Dr. Ramon Castañeda
+      role: Chief Editor of the Mexican Journal of Physics
       text: >
-        Lord Vader is the ultimate manifestation of the Dark Side's power. His capacity
-        to execute the Empire's will with unyielding precision is unmatched. Those who dare
-        challenge him shall learn the true meaning of suffering.
-      avatar: /att/photo.jpg
+         Salvador has demonstrated an unusual enthusiasm for developing a successful career in 
+         science and possesses knowledge and experience in several state-of-the-art 
+         computational techniques, in particular, Machine Learning.
+      avatar: /att/ramoncp.jpeg
       rate: 5
-    - name: Grand Moff Tarkin
-      role: Governor of the Outer Rim
+    - name: Dr. Carlos Wiechers
+      role: Associate Professor
       text: >
-        Working alongside Lord Vader ensures that strategic objectives are met regardless
-        of cost. His presence instills a methodical dread that maintains order across even
-        the most unruly systems.
-      avatar: /att/photo.jpg
+        Salvador has experience in advanced data analysis using machine learning, quantum field 
+        theory and quantum optics. This combination of expertise equips him to conduct advanced 
+        theoretical and experimental research across multiple fields.
+      avatar: /att/wiechers.jpeg
       rate: 5
-    - name: Admiral Piett
-      role: Imperial Fleet Commander
+    - name: Ana Montes
+      role: OPERA Project Leader
       text: >
-        Serving under Lord Vader's direct command demands absolute excellence. Mistakes are
-        not tolerated, but under his leadership, the fleet has never suffered a true strategic defeat.
-      avatar: /att/photo.jpg
+        Chava was instrumental in developing Opera, helping LATAM Airlines reduce its costs by 5%.
+      avatar: /att/ana.avif
       rate: 5
-    - name: Boba Fett
-      role: Bounty Hunter
+    - name: Mariela
+      role: Algorithmics General Director
       text: >
-        Vader pays on time and keeps his word, as long as you don't disintegrate the targets.
-        He is one of the few figures in the galaxy I truly respect and fear.
-      avatar: /att/photo.jpg
+        A good programming teacher possesses strong soft skills, such as responsibility, respect, 
+        tolerance, resilience, and empathy, along with solid technical knowledge. Salvador embodies 
+        all these qualities.
+      avatar: /att/mariela.png
       rate: 5
-    - name: Obi-Wan Kenobi
-      role: Jedi Master in Exile
+    - name: Guadalupe Aguilera
+      role: Maquinas Chochis CEO
       text: >
-        He was the Chosen One, destined to destroy the Sith, not join them. His mastery of
-        combat and unrestrained deployment of the Dark Side make him the most dangerous entity in the galaxy.
-      avatar: /att/photo.jpg
-      rate: 1
-    - name: Luke Skywalker
-      role: Rebel Alliance Pilot
+        Salvador played a key role in transforming our traditional food service system into a modern, 
+        technology-driven operation, helping bridge the gap between established practices and innovative digital solutions.
+      avatar: /att/chochis2.webp
+      rate: 5
+    - name: Edgar Hernandez
+      role: Optimen Master Developer
       text: >
-        There is a conflict within him; I can feel it. Yet on the battlefield and inside the cockpit of his starfighter,
-        his raw power and tactical mastery are simply overwhelming.
-      avatar: /att/photo.jpg
-      rate: 4
-    - name: Ahsoka Tano
-      role: Former Jedi Padawan
+        During his time at Optimen, Salvador demonstrated exceptional problem-solving skills and the ability to work
+         effectively and collaboratively with diverse interdisciplinary teams.
+      avatar: /att/edgarh.jpeg
+      rate: 5
+    - name: Krystian Rodriguez
+      role: Corporativo Transporta Regional Director
       text: >
-        The man who was once my master no longer exists; only an unstoppable machine of war remains.
-        His lightsaber technique and command over the Force are nearly unassailable.
-      avatar: /att/photo.jpg
-      rate: 2
-    - name: Director Orson Krennic
-      role: Director of Advanced Weapons Research
+        Salvador played a key role in the continuous 
+        improvement of León's urban and public transportation systems.
+      avatar: /att/krystian.jpeg
+      rate: 5
+    - name: Michael Nance
+      role: NEIU Coordinator of Partnerships
       text: >
-        Despite our disagreements regarding leadership over the Death Star project, I must admit
-        that his ability to choke out bureaucratic inefficiency is remarkably effective.
-      avatar: /att/photo.jpg
-      rate: 4
+        During his exchange program at NEIU, Salvador demonstrated an outstanding 
+        ability to adapt to the U.S. academic environment, achieving excellent academic 
+        results while embracing a new educational and cultural setting.
+      avatar: /att/michael.jpg
+      rate: 5
+    - name: Oscar Rodriguez
+      role: Optimen CEO
+      text: >
+        Salvador is an outstanding individual with tremendous potential to make meaningful 
+        contributions to both industry and academic research.
+      avatar: /att/oscarro.jpeg
+      rate: 5
+    - name: Luis Islas
+      role: Semillas del Futuro CEO
+      text: >
+        During his time in Chicago, Salvador played an important role in inspiring a new generation of Latino students
+        to pursue undergraduate and graduate education in the United States.
+      avatar: /att/luisislas.jpeg
+      rate: 5
+    - name: Analucia Acosta
+      role: EducationUSA Adviser
+      text: >
+        I met Salvador through the Opportunity Funds scholarship program, where he was selected as one of the top 15 
+        students in Mexico. I can confidently say that he is an outstanding individual, an exceptional professional, 
+        and a highly dedicated student.
+      avatar: /att/analucia.png
+      rate: 5
 
 education:
   - degree: Bachelor of Science in Physics (Exchange Semester)
     institution: Northeastern Illinois University
     year: "Spring Term, 2024"
+    image: /att/neiu.jpeg
   - degree: Bachelor of Science in Engineering Physics
     institution: Universidad de Guanajuato
     year: "Jan 2021 - June 2026"
-  - degree: Opportunity Founds Scholar
+    image: /att/ug.jpeg
+  - degree: Opportunity Funds Scholar
     institution: Education USA
     year: "June 2026"
+    image: /att/edusa.jpeg
 
 awards:
   - name: Study Abroad Award
-    institution: Universidad de Guanajuato 
-    year: Spring 2024 
-    text: Awarded to distinguished students selected to represent the University of Guanajuato in international academic programs.  
+    institution: Universidad de Guanajuato
+    year: Spring 2024
+    text: Selected for an international academic exchange program in recognition of academic achievement.
+
   - name: Academic Merit Award
-    institution: Universidad de Guanajuato 
-    year: Dec 2023 
-    text: Granted for being the top-performing student in the Engineering Physics program.  
-  - name: Global Nominee and 3rd Regional Place
-    institution: NASA Space Apps Challenge   
-    year: Oct 2023 
-    text: Recognized as a Global Nominee and achieved third place in the Guanajuato regional  competition of the world’s largest hackathon organized by NASA. 
+    institution: Universidad de Guanajuato
+    year: Dec 2023
+    text: Recognized as the top-performing student in the Engineering Physics program.
+
+  - name: Global Nominee & 3rd Regional Place
+    institution: NASA Space Apps Challenge
+    year: Oct 2023
+    text: Named a Global Nominee and secured third place in the Guanajuato regional competition.
+
   - name: Academic Merit Award
-    institution: Universidad de Guanajuato  
-    year: Dec 2022 
-    text: Granted for being the top-performing student in the Engineering Physics program. 
+    institution: Universidad de Guanajuato
+    year: Dec 2022
+    text: Recognized as the top-performing student in the Engineering Physics program.
+
   - name: 4th State Place
-    institution: University Chess Olympiad (CONDDE)  
-    year: Nov 2022 
-    text: Achieved fourth place in the most competitive university-level chess tournament in the  state, part of Mexico’s national collegiate sports system. 
-  - name: Global Nominee and 2nd Regional Place
-    institution: NASA Space Apps Challenge   
-    year: Oct 2022 
-    text: Recognized as a Global Nominee and achieved second place in the Guadalajara regional 
-    competition of the world’s largest hackathon organized by NASA. 
-  - name: Olympic silver medal in mathematics
+    institution: University Chess Olympiad (CONDDE)
+    year: Nov 2022
+    text: Placed fourth in the state-level university chess competition.
+
+  - name: Global Nominee & 2nd Regional Place
+    institution: NASA Space Apps Challenge
+    year: Oct 2022
+    text: Named a Global Nominee and secured second place in the Guadalajara regional competition.
+
+  - name: Silver Medal in Mathematics
     institution: Mexican Mathematical Olympiad (OMM)
-    year: Jun 2016 
-    text: Awarded second place in the most prestigious national-level mathematics competition  
-    in Mexico. 
+    year: Jun 2016
+    text: Earned a silver medal in a state-level edition of Mexico's Mathematical Olympiad.
+
   - name: 1st Regional Place
-    institution: Robotix Faire 2016 
-    year: Apr 2016 
-    text: Winner of the regional stage of the most important national robotics tournament at the  middle school level.
+    institution: Robotix Faire
+    year: Apr 2016
+    text: Won first place in the regional robotics competition.
 
 languages:
   - name: Galactic Basic
@@ -294,34 +329,28 @@ languages:
   - name: Bocce
     level: C1 Advanced
 
+
 contactme:
   message: >
-    Do you have a rebel planet to pacify, a supermassive military project to oversee,
-    or do you wish to join the cause of the Galactic Empire? Write to me before I find
-    your lack of faith disturbing.
+    Have an interesting project, research opportunity, or idea you'd like to explore together? I'd love to hear from you!
+    Let's build something meaningful together.
   email: darth.vader@imperialfleet.gal
   network:
-    - name: Imperial Network
+    - name: GitHub
       icon: i-simple-icons-github
-      url: https://imperialnet.empire.gal/vader
-    - name: HoloNet
+      url: https://github.com/Chavaquiroz
+    - name: LinkedIn
       icon: i-simple-icons-linkedin
-      url: https://holonet.gal/in/darthvader
-    - name: X (Imperium)
-      icon: i-simple-icons-x
-      url: https://x.com/lord_vader
-    - name: HoloGram
+      url: https://www.linkedin.com/in/salvadorquiroz/
+    - name: Instagram
       icon: i-simple-icons-instagram
-      url: https://instagram.com/darthvader_official
+      url: https://www.instagram.com/chavasado/
     - name: Imperial Facebook
       icon: i-simple-icons-facebook
       url: https://facebook.com/darthvader
-    - name: Sith Transmissions
+    - name: Youtube
       icon: i-simple-icons-youtube
-      url: https://youtube.com/@darthvader
-    - name: Empire Comms
-      icon: i-simple-icons-discord
-      url: https://discord.gg/imperialnavy
-    - name: Death Star Ops
-      icon: i-simple-icons-slack
-      url: https://deathstarworkspace.slack.com
+      url: https://www.youtube.com/channel/UCkr1CE1y4Y00Qc_3-k7XlCw?sub_confirmation=1
+    - name: Prometeo
+      icon: i-simple-icons-googleplay
+      url: https://play.google.com/store/apps/details?id=com.prometeo.tes&hl=es_MX

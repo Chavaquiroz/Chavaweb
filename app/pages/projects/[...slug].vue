@@ -31,9 +31,15 @@ if (!page.value) {
 						<img :src="item"  class="w-full rounded-lg aspect-4/3 object-cover" loading="lazy">
 					</UCarousel>
 				</div>
-				<div class="text-center text-blue-400 hover:underline text-xl mt-12 mb-4">
-					<NuxtLink>Try it here</NuxtLink>
+				<div
+					v-if="page.meta.demoUrl"
+					class="text-center text-blue-400 hover:underline text-xl mt-12 mb-4"
+				>
+					<NuxtLink :to="page.meta.demoUrl" target="_blank">
+						Try it here
+					</NuxtLink>
 				</div>
+				<div v-if="!page.meta.demoUrl" class="h-2"></div>
 				<div>
 					<div class="flex gap-4 flex-wrap justify-center">
 						<UIcon v-for="icon in page.meta.technologies"  :name="icon" class="size-10" />

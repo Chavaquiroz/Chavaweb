@@ -1,15 +1,20 @@
 ---
-title: DS-1 Orbital Battle Station (Death Star)
-organization: Galactic Empire
-date: 00 BBY
+title: Wigo (In progress)
+organization: Corporativo Transporta
+date: May 2026 - Present
 images:
-  - /att/ds2.jpg
-  - /att/ds1.jpg
-  - /att/ds3.jpg
+  - /att/wigo.png
+  - /att/wigo1.png
+  - /att/wigo2.png
 technologies:
-  - i-simple-icons-github
-  - i-simple-icons-linux
-  - i-simple-icons-go
+  - i-simple-icons-mysql
+  - i-simple-icons-xcode
+  - i-simple-icons-androidstudio
+  - i-simple-icons-swift
+  - i-simple-icons-kotlin
+  - i-simple-icons-appstore
+  - i-simple-icons-googleplay
+demoUrl: https://play.google.com/store/apps/details?id=com.signiatecnologia.wigo&hl=es_MX
 ---
 
 The **DS-1 Orbital Battle Station** represents the pinnacle of Imperial engineering and technological supremacy. Designed to enforce order throughout the galaxy, this moon-sized deep-space mobile battle station possesses firepower equivalent to the entire Imperial Fleet.

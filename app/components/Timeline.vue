@@ -35,16 +35,16 @@ onUnmounted(() => {
 </script>
 
 <template>
-	<div class="flex gap-10">
+	<div class="flex ">
 		<div class="flex-1 relative hidden lg:block">
 			
 			<!-- Reduce el 20hv si la linea del tiempo es muy larga
 				 o aumenta su valor si es corta -->
-			<div class="sticky top-1 mx-auto w-64 text-center">
+			<div class="sticky top-1 w-64 text-center mx-auto">
 				<div class="flex h-[100vh] items-center">
 					<UTimeline
 						:items="jobs.map(j => ({
-							title: j.company,
+							title: j.company + '\n' + j.job_title,
 							date: j.start,
 							icon: 'i-lucide-briefcase-business'
 							}))"
