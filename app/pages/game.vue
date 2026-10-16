@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const jugando = ref(false)
 </script>
 
 
@@ -14,7 +15,18 @@
 				O/Z: Shoot <br />
 				I/X: Action
 			</div>
-			<div class="bg-slate-800 flex-3 text-center justify-center items-center flex h-[70vh]">WORK IN PROGRESS</div>
+			<div class="game-wrapper lg:flex-[2]">
+				<iframe
+				v-if="jugando"
+				src="/juego/index.html"
+				title="Mi juego"
+				allow="cross-origin-isolated; autoplay; fullscreen"
+				allowfullscreen
+				/>
+				<div v-else class="h-full flex items-center justify-center rounded-lg bg-black/40">
+					<UButton size="xl" icon="i-lucide-play" @click="jugando = true">Jugar</UButton>
+				</div>
+			</div>
 			<div class="flex-1 text-center">
 				<div class="text-xl  my-8 font-bold">Technologies</div>
 				<div>
@@ -31,3 +43,16 @@
 	</div>
 </template>
 
+<style scoped>
+.game-wrapper {
+  width: 100%; min-width: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+.game-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
