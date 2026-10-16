@@ -13,7 +13,9 @@ const jugando = ref(false)
 				AD/Left Right Arrows: Move <br />
 				W/Space/Up Arrow: Jump, Wall Jump  and Double Jump<br />
 				O/Z: Shoot <br />
-				I/X: Action
+				I/X: Action <br />
+				F: Fullscreen <br />
+				Esc: Pause 
 			</div>
 			<div class="game-wrapper lg:flex-[2]">
 				<iframe
